@@ -1,0 +1,1414 @@
+INFO:root:
+
+NEW SESSION
+INFO:root:[1][1]::Initiating Server
+INFO:root:[1][2]::Socket created
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[2][1]::Initiating Server
+INFO:root:[2][2]::Socket created
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][1]::Initiating Server
+INFO:root:[0][2]::Socket created
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 56013)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[0][6]::Add/Update request received
+INFO:root:[0][7]::Updating Local Data for Add/Update Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[0][10]::Connection Established
+INFO:root:[2][4]::Connected with ('127.0.0.1', 56037)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:(('k1', 'v1'), [1, 0, 0])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 56051)-Client
+INFO:root:[2][5]::Entered Client message deciphering mechanism
+INFO:root:[2][6]::Add/Update request received
+INFO:root:[2][7]::Updating Local Data for Add/Update Request
+INFO:root:[2][8]::Synchronizing with other servers
+INFO:root:[2][9]::Attempting connection with other server-0
+INFO:root:[2][10]::Connection Established
+INFO:root:[0][4]::Connected with ('127.0.0.1', 56070)-Server
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:(('k2', 'v2'), [1, 0, 1])
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][9]::Attempting connection with other server-1
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[1][4]::Connected with ('127.0.0.1', 56071)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:(('k2', 'v2'), [1, 0, 1])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][16]::Synchronization Attempt Completed
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 56136)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[2][4]::Connected with ('127.0.0.1', 56141)-Client
+INFO:root:[2][5]::Entered Client message deciphering mechanism
+INFO:root:[2][6]::Add/Update request received
+INFO:root:[2][7]::Updating Local Data for Add/Update Request
+INFO:root:[2][8]::Synchronizing with other servers
+INFO:root:[2][9]::Attempting connection with other server-0
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[0][4]::Connected with ('127.0.0.1', 56170)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:(('k3', 'v3'), [1, 0, 2])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][9]::Attempting connection with other server-1
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[2][Unknown]::Synchronization Failed
+INFO:root:[2][16]::Synchronization Attempt Completed
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 56352)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[2][4]::Connected with ('127.0.0.1', 56363)-Client
+INFO:root:[2][5]::Entered Client message deciphering mechanism
+INFO:root:[2][6]::Add/Update request received
+INFO:root:[2][7]::Updating Local Data for Add/Update Request
+INFO:root:[2][8]::Synchronizing with other servers
+INFO:root:[2][9]::Attempting connection with other server-0
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[0][6]::Add/Update request received
+INFO:root:[0][7]::Updating Local Data for Add/Update Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][4]::Connected with ('127.0.0.1', 56428)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:(('k5', 'v6'), [2, 0, 2])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[2][Unknown]::Synchronization Failed
+INFO:root:[2][9]::Attempting connection with other server-1
+INFO:root:[2][10]::Connection Established
+INFO:root:[1][4]::Connected with ('127.0.0.1', 56430)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:(('k5', 'v5'), [1, 0, 3])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][16]::Synchronization Attempt Completed
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[2][6]::Error Occurred in Execution, moving ahead
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][6]::Error Occurred in Execution, moving ahead
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 56472)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[1][6]::Add/Update request received
+INFO:root:[1][7]::Updating Local Data for Add/Update Request
+INFO:root:[1][8]::Synchronizing with other servers
+INFO:root:[1][9]::Attempting connection with other server-0
+INFO:root:[1][10]::Connection Established
+INFO:root:[0][4]::Connected with ('127.0.0.1', 56501)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('k7', 'v7'), [1, 1, 2])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-2
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][4]::Connected with ('127.0.0.1', 56502)-Server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('k7', 'v7'), [2, 1, 2])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::CONFLICT DETECTED with server-2
+INFO:root:({'k1': 'v1', 'k2': 'v2', 'k3': 'v3', 'k5': 'v6', 'k7': 'v7'}, [2, 1, 2])
+INFO:root:({'k1': 'v1', 'k2': 'v2', 'k3': 'v3', 'k5': 'v5', 'k7': 'v7'}, [1, 1, 3])
+INFO:root:[1][16]::Synchronization Attempt Completed
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 56681)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[0][6]::Add/Update request received
+INFO:root:[0][7]::Updating Local Data for Add/Update Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[1][4]::Connected with ('127.0.0.1', 56700)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:(('k9', 'v9'), [3, 1, 2])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][4]::Connected with ('127.0.0.1', 56701)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('k9', 'v9'), [3, 1, 2])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::CONFLICT DETECTED with server-2
+INFO:root:({'k1': 'v1', 'k2': 'v2', 'k3': 'v3', 'k5': 'v6', 'k7': 'v7', 'k9': 'v9'}, [3, 1, 2])
+INFO:root:({'k1': 'v1', 'k2': 'v2', 'k3': 'v3', 'k5': 'v5', 'k7': 'v7', 'k9': 'v9'}, [2, 1, 3])
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:
+
+NEW SESSION
+INFO:root:[1][1]::Initiating Server
+INFO:root:[1][2]::Socket created
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[2][1]::Initiating Server
+INFO:root:[2][2]::Socket created
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[3][1]::Initiating Server
+INFO:root:[3][2]::Socket created
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[0][1]::Initiating Server
+INFO:root:[0][2]::Socket created
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][6]::Error Occurred in Execution, moving ahead
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][6]::Error Occurred in Execution, moving ahead
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 59546)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[0][6]::Add/Update request received
+INFO:root:[0][7]::Updating Local Data for Add/Update Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][4]::Connected with ('127.0.0.1', 59565)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:(('k1', 'v1'), [1, 0, 0, 0])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[2][4]::Connected with ('127.0.0.1', 59566)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('k1', 'v1'), [1, 0, 0, 0])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-3
+INFO:root:[0][10]::Connection Established
+INFO:root:[3][4]::Connected with ('127.0.0.1', 59567)-Server
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:(('k1', 'v1'), [1, 0, 0, 0])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 59933)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[1][6]::Add/Update request received
+INFO:root:[1][7]::Updating Local Data for Add/Update Request
+INFO:root:[1][8]::Synchronizing with other servers
+INFO:root:[1][9]::Attempting connection with other server-0
+INFO:root:[1][10]::Connection Established
+INFO:root:[0][4]::Connected with ('127.0.0.1', 59954)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('k2', 'v2'), [1, 1, 0, 0])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-2
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][4]::Connected with ('127.0.0.1', 59955)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('k2', 'v2'), [1, 1, 0, 0])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-3
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[3][4]::Connected with ('127.0.0.1', 59956)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:(('k2', 'v2'), [1, 1, 0, 0])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][16]::Synchronization Attempt Completed
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[3][4]::Connected with ('127.0.0.1', 60016)-Client
+INFO:root:[3][5]::Entered Client message deciphering mechanism
+INFO:root:[1][4]::Connected with ('127.0.0.1', 60026)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[3][6]::Add/Update request received
+INFO:root:[3][7]::Updating Local Data for Add/Update Request
+INFO:root:[3][8]::Synchronizing with other servers
+INFO:root:[3][9]::Attempting connection with other server-0
+INFO:root:[3][10]::Connection Established
+INFO:root:[0][4]::Connected with ('127.0.0.1', 60069)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:(('k3', 'v4'), [1, 1, 0, 1])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[3][13]::Received data and clock
+INFO:root:[3][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[3][15]::No conflict
+INFO:root:[3][9]::Attempting connection with other server-1
+INFO:root:[3][10]::Connection Established
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:[1][6]::Add/Update request received
+INFO:root:[1][7]::Updating Local Data for Add/Update Request
+INFO:root:[1][8]::Synchronizing with other servers
+INFO:root:[1][9]::Attempting connection with other server-0
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[0][4]::Connected with ('127.0.0.1', 60071)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:(('k3', 'v3'), [1, 2, 0, 0])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-2
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][4]::Connected with ('127.0.0.1', 60072)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('k3', 'v3'), [1, 2, 0, 1])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-3
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[3][Unknown]::Synchronization Failed
+INFO:root:[3][9]::Attempting connection with other server-2
+INFO:root:[3][10]::Connection Established
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:[2][4]::Connected with ('127.0.0.1', 60087)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('k3', 'v4'), [1, 1, 0, 1])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[3][13]::Received data and clock
+INFO:root:[3][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[3][15]::No conflict
+INFO:root:[3][16]::Synchronization Attempt Completed
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[3][4]::Connected with ('127.0.0.1', 60073)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[1][Unknown]::Synchronization Failed
+INFO:root:[1][16]::Synchronization Attempt Completed
+INFO:root:[3][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 60070)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 60263)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[3][4]::Connected with ('127.0.0.1', 60309)-Client
+INFO:root:[3][5]::Entered Client message deciphering mechanism
+INFO:root:[3][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 60355)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[0][6]::Add/Update request received
+INFO:root:[0][7]::Updating Local Data for Add/Update Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][4]::Connected with ('127.0.0.1', 60384)-Server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:(('k6', 'v6'), [2, 2, 0, 1])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[2][4]::Connected with ('127.0.0.1', 60385)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('k6', 'v6'), [2, 2, 0, 1])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-3
+INFO:root:[0][10]::Connection Established
+INFO:root:[3][4]::Connected with ('127.0.0.1', 60386)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:(('k6', 'v6'), [2, 2, 0, 1])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 60441)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[0][6]::Read request received
+INFO:root:[0][7]::Handling Read Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[1][4]::Connected with ('127.0.0.1', 60455)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[2, 2, 0, 1]
+INFO:root:[1][5.1]::Received Read Request
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][4]::Connected with ('127.0.0.1', 60456)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[2, 2, 0, 1]
+INFO:root:[2][5.1]::Received Read Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-3
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[3][4]::Connected with ('127.0.0.1', 60457)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[2, 2, 0, 1]
+INFO:root:[3][5.1]::Received Read Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[3][4]::Connected with ('127.0.0.1', 60593)-Client
+INFO:root:[3][5]::Entered Client message deciphering mechanism
+INFO:root:[0][4]::Connected with ('127.0.0.1', 60603)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[0][6]::Add/Update request received
+INFO:root:[0][7]::Updating Local Data for Add/Update Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][4]::Connected with ('127.0.0.1', 60649)-Server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:(('k6', 'v6'), [3, 2, 0, 1])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[2][4]::Connected with ('127.0.0.1', 60650)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('k6', 'v6'), [3, 2, 0, 1])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-3
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[3][6]::Add/Update request received
+INFO:root:[3][7]::Updating Local Data for Add/Update Request
+INFO:root:[3][8]::Synchronizing with other servers
+INFO:root:[3][9]::Attempting connection with other server-0
+INFO:root:[3][10]::Connection Established
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][4]::Connected with ('127.0.0.1', 60688)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:(('k6', 'v7'), [2, 2, 0, 2])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[3][13]::Received data and clock
+INFO:root:[3][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[3][15]::No conflict
+INFO:root:[3][9]::Attempting connection with other server-1
+INFO:root:[3][10]::Connection Established
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:[1][4]::Connected with ('127.0.0.1', 60689)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:(('k6', 'v7'), [3, 2, 0, 2])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[3][13]::Received data and clock
+INFO:root:[3][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[3][15]::No conflict
+INFO:root:[3][9]::Attempting connection with other server-2
+INFO:root:[3][10]::Connection Established
+INFO:root:[2][4]::Connected with ('127.0.0.1', 60690)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:(('k6', 'v7'), [3, 2, 0, 2])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[3][13]::Received data and clock
+INFO:root:[3][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[3][15]::No conflict
+INFO:root:[3][16]::Synchronization Attempt Completed
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[3][4]::Connected with ('127.0.0.1', 60651)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[3][6]::Error Occurred in Execution, moving ahead
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 60759)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[0][6]::Read request received
+INFO:root:[0][7]::Handling Read Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][4]::Connected with ('127.0.0.1', 60769)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[3, 2, 0, 2]
+INFO:root:[1][5.1]::Received Read Request
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[0][10]::Connection Established
+INFO:root:[2][4]::Connected with ('127.0.0.1', 60770)-Server
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[3, 2, 0, 2]
+INFO:root:[2][5.1]::Received Read Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-3
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[3][4]::Connected with ('127.0.0.1', 60771)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[3, 2, 0, 2]
+INFO:root:[3][5.1]::Received Read Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[3][4]::Connected with ('127.0.0.1', 61143)-Client
+INFO:root:[3][5]::Entered Client message deciphering mechanism
+INFO:root:[2][4]::Connected with ('127.0.0.1', 61158)-Client
+INFO:root:[2][5]::Entered Client message deciphering mechanism
+INFO:root:[3][6]::Add/Update request received
+INFO:root:[3][7]::Updating Local Data for Add/Update Request
+INFO:root:[3][8]::Synchronizing with other servers
+INFO:root:[3][9]::Attempting connection with other server-0
+INFO:root:[3][10]::Connection Established
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][4]::Connected with ('127.0.0.1', 61253)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:(('karan', 'parashar'), [3, 2, 0, 3])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[3][13]::Received data and clock
+INFO:root:[3][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[3][15]::No conflict
+INFO:root:[3][9]::Attempting connection with other server-1
+INFO:root:[3][10]::Connection Established
+INFO:root:[1][4]::Connected with ('127.0.0.1', 61254)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:(('karan', 'parashar'), [3, 2, 0, 3])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[3][13]::Received data and clock
+INFO:root:[3][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[3][15]::No conflict
+INFO:root:[3][9]::Attempting connection with other server-2
+INFO:root:[3][10]::Connection Established
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:[3][Unknown]::Synchronization Failed
+INFO:root:[3][16]::Synchronization Attempt Completed
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[2][6]::Error Occurred in Execution, moving ahead
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 61255)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[2][6]::Error Occurred in Execution, moving ahead
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[2][6]::Error Occurred in Execution, moving ahead
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 61401)-Client
+INFO:root:[2][5]::Entered Client message deciphering mechanism
+INFO:root:[2][6]::Add/Update request received
+INFO:root:[2][7]::Updating Local Data for Add/Update Request
+INFO:root:[2][8]::Synchronizing with other servers
+INFO:root:[2][9]::Attempting connection with other server-0
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][4]::Connected with ('127.0.0.1', 61425)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:(('karan2', 'parashar2'), [3, 2, 1, 2])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][9]::Attempting connection with other server-1
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][4]::Connected with ('127.0.0.1', 61426)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:(('karan2', 'parashar2'), [3, 2, 1, 3])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[1][17]::Closing current connection
+INFO:root:[2][9]::Attempting connection with other server-3
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[3][4]::Connected with ('127.0.0.1', 61427)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:(('karan2', 'parashar2'), [3, 2, 1, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][16]::Synchronization Attempt Completed
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 61593)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[0][4]::Connected with ('127.0.0.1', 61599)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[1][6]::Add/Update request received
+INFO:root:[1][7]::Updating Local Data for Add/Update Request
+INFO:root:[1][8]::Synchronizing with other servers
+INFO:root:[1][9]::Attempting connection with other server-0
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[0][6]::Add/Update request received
+INFO:root:[0][7]::Updating Local Data for Add/Update Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[1][Unknown]::Synchronization Failed
+INFO:root:[1][9]::Attempting connection with other server-2
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[2][4]::Connected with ('127.0.0.1', 61713)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('para2', 'val2'), [3, 3, 1, 3])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-3
+INFO:root:[1][10]::Connection Established
+INFO:root:[3][4]::Connected with ('127.0.0.1', 61714)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('para2', 'val2'), [3, 3, 1, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][16]::Synchronization Attempt Completed
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 61698)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][4]::Connected with ('127.0.0.1', 61715)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:(('para1', 'val1'), [4, 2, 1, 3])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][9]::Attempting connection with other server-3
+INFO:root:[0][10]::Connection Established
+INFO:root:[3][4]::Connected with ('127.0.0.1', 61716)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:(('para1', 'val1'), [4, 3, 1, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 61693)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[0][6]::Error Occurred in Execution, moving ahead
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 61798)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[0][4]::Connected with ('127.0.0.1', 61812)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[0][6]::Add/Update request received
+INFO:root:[0][7]::Updating Local Data for Add/Update Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[0][10]::Connection Established
+INFO:root:[2][4]::Connected with ('127.0.0.1', 61897)-Server
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('para3', 'val3'), [5, 3, 1, 3])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][9]::Attempting connection with other server-3
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][4]::Connected with ('127.0.0.1', 61898)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:(('para3', 'val3'), [5, 3, 1, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][13]::Received data and clock
+INFO:root:[0][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][15]::No conflict
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 61923)-Client
+INFO:root:[2][5]::Entered Client message deciphering mechanism
+INFO:root:[1][6]::Add/Update request received
+INFO:root:[1][7]::Updating Local Data for Add/Update Request
+INFO:root:[1][8]::Synchronizing with other servers
+INFO:root:[1][9]::Attempting connection with other server-0
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][4]::Connected with ('127.0.0.1', 61975)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('para33', 'val33'), [3, 4, 1, 3])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-2
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[1][Unknown]::Synchronization Failed
+INFO:root:[1][9]::Attempting connection with other server-3
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[3][4]::Connected with ('127.0.0.1', 61992)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:(('para33', 'val33'), [5, 4, 1, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][16]::Synchronization Attempt Completed
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 61877)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 62070)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[2][6]::Add/Update request received
+INFO:root:[2][7]::Updating Local Data for Add/Update Request
+INFO:root:[2][8]::Synchronizing with other servers
+INFO:root:[2][9]::Attempting connection with other server-0
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][4]::Connected with ('127.0.0.1', 62085)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:(('para4', 'val4'), [5, 3, 2, 3])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][9]::Attempting connection with other server-1
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[2][Unknown]::Synchronization Failed
+INFO:root:[2][9]::Attempting connection with other server-3
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][4]::Connected with ('127.0.0.1', 62101)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:(('para4', 'val4'), [5, 4, 2, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][16]::Synchronization Attempt Completed
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 61976)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[2][6]::Error Occurred in Execution, moving ahead
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 62184)-Client
+INFO:root:[2][5]::Entered Client message deciphering mechanism
+INFO:root:[1][6]::Add/Update request received
+INFO:root:[1][7]::Updating Local Data for Add/Update Request
+INFO:root:[1][8]::Synchronizing with other servers
+INFO:root:[1][9]::Attempting connection with other server-0
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][4]::Connected with ('127.0.0.1', 62189)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:(('para55', 'val44'), [5, 5, 1, 3])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-2
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[1][Unknown]::Synchronization Failed
+INFO:root:[1][9]::Attempting connection with other server-3
+INFO:root:[1][10]::Connection Established
+INFO:root:[3][4]::Connected with ('127.0.0.1', 62205)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('para55', 'val44'), [5, 5, 2, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][16]::Synchronization Attempt Completed
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 62086)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 62246)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[2][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 62190)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[2][6]::Error Occurred in Execution, moving ahead
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 62391)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[2][4]::Connected with ('127.0.0.1', 62397)-Client
+INFO:root:[2][5]::Entered Client message deciphering mechanism
+INFO:root:[2][6]::Add/Update request received
+INFO:root:[2][7]::Updating Local Data for Add/Update Request
+INFO:root:[2][8]::Synchronizing with other servers
+INFO:root:[2][9]::Attempting connection with other server-0
+INFO:root:[2][10]::Connection Established
+INFO:root:[0][4]::Connected with ('127.0.0.1', 62460)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:(('key1', 'val1'), [5, 4, 3, 3])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][9]::Attempting connection with other server-1
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[2][Unknown]::Synchronization Failed
+INFO:root:[2][9]::Attempting connection with other server-3
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[3][4]::Connected with ('127.0.0.1', 62476)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:(('key1', 'val1'), [5, 5, 3, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[2][13]::Received data and clock
+INFO:root:[3][17]::Closing current connection
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[2][15]::No conflict
+INFO:root:[2][16]::Synchronization Attempt Completed
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 62645)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[1][6]::Add/Update request received
+INFO:root:[1][7]::Updating Local Data for Add/Update Request
+INFO:root:[1][8]::Synchronizing with other servers
+INFO:root:[1][9]::Attempting connection with other server-0
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[1][Unknown]::Synchronization Failed
+INFO:root:[1][9]::Attempting connection with other server-2
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][4]::Connected with ('127.0.0.1', 62752)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('karan_conflict_attempt', 'parashar'), [5, 6, 2, 3])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-3
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][10]::Connection Established
+INFO:root:[3][4]::Connected with ('127.0.0.1', 62753)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('karan_conflict_attempt', 'parashar'), [5, 6, 3, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][16]::Synchronization Attempt Completed
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 62461)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 62772)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[1][6]::Add/Update request received
+INFO:root:[1][7]::Updating Local Data for Add/Update Request
+INFO:root:[1][8]::Synchronizing with other servers
+INFO:root:[1][9]::Attempting connection with other server-0
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[1][Unknown]::Synchronization Failed
+INFO:root:[1][9]::Attempting connection with other server-2
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:[2][4]::Connected with ('127.0.0.1', 62802)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:(('sdfasd', 'asdfdasf'), [5, 7, 3, 3])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-3
+INFO:root:[1][10]::Connection Established
+INFO:root:[3][4]::Connected with ('127.0.0.1', 62803)-Server
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('sdfasd', 'asdfdasf'), [5, 7, 3, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[1][13]::Received data and clock
+INFO:root:[3][17]::Closing current connection
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[1][15]::No conflict
+INFO:root:[1][16]::Synchronization Attempt Completed
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 62881)-Client
+INFO:root:[2][5]::Entered Client message deciphering mechanism
+INFO:root:[2][6]::Add/Update request received
+INFO:root:[2][7]::Updating Local Data for Add/Update Request
+INFO:root:[2][8]::Synchronizing with other servers
+INFO:root:[2][9]::Attempting connection with other server-0
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[2][Unknown]::Synchronization Failed
+INFO:root:[2][9]::Attempting connection with other server-1
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][4]::Connected with ('127.0.0.1', 62911)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:(('sadf', 'asdf'), [5, 7, 4, 3])
+INFO:root:[1][5.1]::Received Add/Update Request
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][9]::Attempting connection with other server-3
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][4]::Connected with ('127.0.0.1', 62912)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:(('sadf', 'asdf'), [5, 7, 4, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][16]::Synchronization Attempt Completed
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 63007)-Client
+INFO:root:[2][5]::Entered Client message deciphering mechanism
+INFO:root:[1][4]::Connected with ('127.0.0.1', 63041)-Client
+INFO:root:[1][5]::Entered Client message deciphering mechanism
+INFO:root:[3][4]::Connected with ('127.0.0.1', 63071)-Client
+INFO:root:[3][5]::Entered Client message deciphering mechanism
+INFO:root:[0][6]::Add/Update request received
+INFO:root:[0][7]::Updating Local Data for Add/Update Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][9]::Attempting connection with other server-3
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 62733)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[0][6]::Error Occurred in Execution, moving ahead
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 62788)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[0][6]::Error Occurred in Execution, moving ahead
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 62895)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[0][6]::Error Occurred in Execution, moving ahead
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[0][4]::Connected with ('127.0.0.1', 63251)-Client
+INFO:root:[0][5]::Entered Client message deciphering mechanism
+INFO:root:[0][6]::Add/Update request received
+INFO:root:[0][7]::Updating Local Data for Add/Update Request
+INFO:root:[0][8]::Synchronizing with other servers
+INFO:root:[0][9]::Attempting connection with other server-1
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][9]::Attempting connection with other server-2
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][9]::Attempting connection with other server-3
+INFO:root:[0][10]::Connection Established
+INFO:root:[0][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][12]::Sent the local data and clock
+INFO:root:[0][Unknown]::Synchronization Failed
+INFO:root:[0][16]::Synchronization Attempt Completed
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[3][6]::Add/Update request received
+INFO:root:[3][7]::Updating Local Data for Add/Update Request
+INFO:root:[3][8]::Synchronizing with other servers
+INFO:root:[3][9]::Attempting connection with other server-0
+INFO:root:[3][10]::Connection Established
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[0][4]::Connected with ('127.0.0.1', 63436)-Server
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:(('karan3', 'parashar5'), [5, 7, 4, 4])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[3][13]::Received data and clock
+INFO:root:[0][17]::Closing current connection
+INFO:root:[3][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[3][15]::CONFLICT DETECTED with server-0
+INFO:root:({'k1': 'v1', 'k2': 'v2', 'k3': 'v3', 'k6': 'v7', 'karan': 'parashar', 'karan2': 'parashar2', 'para2': 'val2', 'para1': 'val1', 'para3': 'val3', 'para33': 'val33', 'para4': 'val4', 'para55': 'val44', 'key1': 'val1', 'karan_conflict_attempt': 'parashar', 'sdfasd': 'asdfdasf', 'sadf': 'asdf', 'karan3': 'parashar5'}, [5, 7, 4, 4])
+INFO:root:({'k1': 'v1', 'k2': 'v2', 'k3': 'v3', 'k6': 'v7', 'karan': 'parashar', 'karan2': 'parashar2', 'para2': 'val2', 'para1': 'val1', 'para3': 'val3', 'para33': 'val33', 'para4': 'val4', 'para55': 'val44', 'key1': 'val1', 'ensuredConflict': 'conflict', 'nextConflict': 'errorPlease', 'karan3': 'parashar5'}, [7, 5, 3, 4])
+INFO:root:[3][9]::Attempting connection with other server-1
+INFO:root:[3][10]::Connection Established
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:[3][Unknown]::Synchronization Failed
+INFO:root:[3][9]::Attempting connection with other server-2
+INFO:root:[3][10]::Connection Established
+INFO:root:[3][11]::Sent msg introducing myself as a fellow server
+INFO:root:[3][12]::Sent the local data and clock
+INFO:root:[2][6]::Add/Update request received
+INFO:root:[2][7]::Updating Local Data for Add/Update Request
+INFO:root:[2][8]::Synchronizing with other servers
+INFO:root:[2][9]::Attempting connection with other server-0
+INFO:root:[2][10]::Connection Established
+INFO:root:[0][4]::Connected with ('127.0.0.1', 63470)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:(('karn44', 'parashr55'), [5, 7, 5, 3])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::CONFLICT DETECTED with server-0
+INFO:root:({'k1': 'v1', 'k2': 'v2', 'k3': 'v3', 'k6': 'v7', 'karan': 'parashar', 'karan2': 'parashar2', 'para2': 'val2', 'para1': 'val1', 'para3': 'val3', 'para33': 'val33', 'para4': 'val4', 'para55': 'val44', 'key1': 'val1', 'karan_conflict_attempt': 'parashar', 'sdfasd': 'asdfdasf', 'sadf': 'asdf', 'karn44': 'parashr55'}, [5, 7, 5, 3])
+INFO:root:({'k1': 'v1', 'k2': 'v2', 'k3': 'v3', 'k6': 'v7', 'karan': 'parashar', 'karan2': 'parashar2', 'para2': 'val2', 'para1': 'val1', 'para3': 'val3', 'para33': 'val33', 'para4': 'val4', 'para55': 'val44', 'key1': 'val1', 'ensuredConflict': 'conflict', 'nextConflict': 'errorPlease', 'karan3': 'parashar5', 'karn44': 'parashr55'}, [7, 5, 4, 4])
+INFO:root:[2][9]::Attempting connection with other server-1
+INFO:root:[2][10]::Connection Established
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:[3][Unknown]::Synchronization Failed
+INFO:root:[3][16]::Synchronization Attempt Completed
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[3][4]::Connected with ('127.0.0.1', 63173)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[3][6]::Error Occurred in Execution, moving ahead
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[3][4]::Connected with ('127.0.0.1', 63353)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[3][6]::Error Occurred in Execution, moving ahead
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[2][Unknown]::Synchronization Failed
+INFO:root:[2][9]::Attempting connection with other server-3
+INFO:root:[2][10]::Connection Established
+INFO:root:[3][4]::Connected with ('127.0.0.1', 63486)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[2][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][12]::Sent the local data and clock
+INFO:root:(('karn44', 'parashr55'), [5, 7, 5, 3])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[2][13]::Received data and clock
+INFO:root:[2][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[2][15]::No conflict
+INFO:root:[2][16]::Synchronization Attempt Completed
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 63158)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[2][6]::Error Occurred in Execution, moving ahead
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 63338)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[2][6]::Error Occurred in Execution, moving ahead
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[2][4]::Connected with ('127.0.0.1', 63451)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[2][6]::Error Occurred in Execution, moving ahead
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][6]::Add/Update request received
+INFO:root:[1][7]::Updating Local Data for Add/Update Request
+INFO:root:[1][8]::Synchronizing with other servers
+INFO:root:[1][9]::Attempting connection with other server-0
+INFO:root:[1][10]::Connection Established
+INFO:root:[0][4]::Connected with ('127.0.0.1', 63514)-Server
+INFO:root:[0][5]::Entered Server message deciphering mechanism
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('karan44', 'ksdkd'), [5, 8, 4, 3])
+INFO:root:[0][5.1]::Received Add/Update Request
+INFO:root:[0][17]::Closing current connection
+INFO:root:[0][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::CONFLICT DETECTED with server-0
+INFO:root:({'k1': 'v1', 'k2': 'v2', 'k3': 'v3', 'k6': 'v7', 'karan': 'parashar', 'karan2': 'parashar2', 'para2': 'val2', 'para1': 'val1', 'para3': 'val3', 'para33': 'val33', 'para4': 'val4', 'para55': 'val44', 'key1': 'val1', 'karan_conflict_attempt': 'parashar', 'sdfasd': 'asdfdasf', 'sadf': 'asdf', 'karan44': 'ksdkd'}, [5, 8, 4, 3])
+INFO:root:({'k1': 'v1', 'k2': 'v2', 'k3': 'v3', 'k6': 'v7', 'karan': 'parashar', 'karan2': 'parashar2', 'para2': 'val2', 'para1': 'val1', 'para3': 'val3', 'para33': 'val33', 'para4': 'val4', 'para55': 'val44', 'key1': 'val1', 'ensuredConflict': 'conflict', 'nextConflict': 'errorPlease', 'karan3': 'parashar5', 'karn44': 'parashr55', 'karan44': 'ksdkd'}, [7, 6, 4, 4])
+INFO:root:[1][9]::Attempting connection with other server-2
+INFO:root:[1][10]::Connection Established
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[2][4]::Connected with ('127.0.0.1', 63515)-Server
+INFO:root:[2][5]::Entered Server message deciphering mechanism
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('karan44', 'ksdkd'), [5, 8, 4, 3])
+INFO:root:[2][5.1]::Received Add/Update Request
+INFO:root:[2][17]::Closing current connection
+INFO:root:[2][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][9]::Attempting connection with other server-3
+INFO:root:[1][10]::Connection Established
+INFO:root:[3][4]::Connected with ('127.0.0.1', 63516)-Server
+INFO:root:[3][5]::Entered Server message deciphering mechanism
+INFO:root:[1][11]::Sent msg introducing myself as a fellow server
+INFO:root:[1][12]::Sent the local data and clock
+INFO:root:(('karan44', 'ksdkd'), [5, 8, 5, 4])
+INFO:root:[3][5.1]::Received Add/Update Request
+INFO:root:[3][17]::Closing current connection
+INFO:root:[3][3]::Waiting for connections
+INFO:root:[1][13]::Received data and clock
+INFO:root:[1][14]::Conflict/No-Conflict Detection Completed
+INFO:root:[1][15]::No conflict
+INFO:root:[1][16]::Synchronization Attempt Completed
+INFO:root:[1][17]::Closing current connection
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 63144)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 63319)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 63437)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+INFO:root:[1][4]::Connected with ('127.0.0.1', 63471)-Server
+INFO:root:[1][5]::Entered Server message deciphering mechanism
+INFO:root:[1][6]::Error Occurred in Execution, moving ahead
+INFO:root:[1][3]::Waiting for connections
+
+
+

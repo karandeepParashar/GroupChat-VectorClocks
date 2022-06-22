@@ -1,0 +1,95 @@
+INFO:root:
+
+NEW SESSION
+INFO:root:Received Hosts and Ports:
+INFO:root:(['localhost', 'localhost', 'localhost'], [9990, 9980, 9999])
+INFO:root:User decides to send request to server 0
+INFO:root:
+
+NEW SESSION
+INFO:root:Received Hosts and Ports:
+INFO:root:(['localhost', 'localhost', 'localhost'], [9990, 9980, 9999])
+INFO:root:
+
+NEW SESSION
+INFO:root:Received Hosts and Ports:
+INFO:root:(['localhost', 'localhost', 'localhost'], [9990, 9980, 9999])
+INFO:root:User decides to send request to server 0
+INFO:root:Update requested from servers
+INFO:root:Data is received:
+INFO:root:[({'key1': 'val1'}, [1, 0, 0])]
+INFO:root:Connection closed with 0 server
+INFO:root:User decides to send request to server 2
+INFO:root:Read requested from servers
+INFO:root:Data is received:
+INFO:root:[('val1', [1, 0, 0])]
+INFO:root:Connection closed with 2 server
+INFO:root:
+
+NEW SESSION
+INFO:root:Received Hosts and Ports:
+INFO:root:(['localhost', 'localhost', 'localhost'], [9990, 9980, 9999])
+INFO:root:User decides to send request to server 0
+INFO:root:Update requested from servers
+INFO:root:Data is received:
+INFO:root:[({'1': '2'}, [1, 0, 0])]
+INFO:root:Connection closed with 0 server
+INFO:root:User decides to send request to server 1
+INFO:root:Update requested from servers
+INFO:root:Data is received:
+INFO:root:[({'1': '2', '2': '3'}, [1, 1, 0])]
+INFO:root:Connection closed with 1 server
+INFO:root:User decides to send request to server 2
+INFO:root:Update requested from servers
+INFO:root:Data is received:
+INFO:root:[({'1': '2', '2': '3', '3': '4'}, [1, 1, 1])]
+INFO:root:Connection closed with 2 server
+INFO:root:User decides to send request to server 2
+INFO:root:Update requested from servers
+INFO:root:Data is received:
+INFO:root:[({'1': '2', '2': '3', '3': '4', '4': '5'}, [1, 1, 2])]
+INFO:root:Connection closed with 2 server
+INFO:root:User decides to send request to server 0
+INFO:root:Read requested from servers
+INFO:root:Data is received:
+INFO:root:[('5', [1, 1, 2])]
+INFO:root:Connection closed with 0 server
+INFO:root:
+
+NEW SESSION
+INFO:root:Received Hosts and Ports:
+INFO:root:(['localhost', 'localhost', 'localhost'], [9990, 9980, 9999])
+INFO:root:User decides to send request to server 0
+INFO:root:Update requested from servers
+INFO:root:Data is received:
+INFO:root:[({'1': '2'}, [1, 0, 0])]
+INFO:root:Time Elapsed: 2.019634485244751
+INFO:root:Connection closed with 0 server
+INFO:root:
+
+NEW SESSION
+INFO:root:Received Hosts and Ports:
+INFO:root:(['localhost', 'localhost', 'localhost'], [9990, 9980, 9999])
+INFO:root:User decides to send request to server 0
+INFO:root:Update requested from servers
+INFO:root:Data is received:
+INFO:root:[({'1': '2'}, [1, 0, 0])]
+INFO:root:Time Elapsed: 0.01520681381225586
+INFO:root:Connection closed with 0 server
+INFO:root:User decides to send request to server 2
+INFO:root:Update requested from servers
+INFO:root:Data is received:
+INFO:root:[({'2': '3'}, [0, 0, 1])]
+INFO:root:Time Elapsed: 0.001997232437133789
+INFO:root:Connection closed with 2 server
+INFO:root:
+
+NEW SESSION
+INFO:root:Received Hosts and Ports:
+INFO:root:(['localhost', 'localhost', 'localhost'], [9990, 9980, 9999])
+INFO:root:User decides to send request to server 0
+INFO:root:Update requested from servers
+INFO:root:Data is received:
+INFO:root:[({'1': '2'}, [1, 0, 0])]
+INFO:root:Time Elapsed: 0.025574684143066406
+INFO:root:Connection closed with 0 server

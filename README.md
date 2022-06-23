@@ -11,10 +11,10 @@ This application is a replicated key-value data store maintained by N servers. E
 
 Includes a driver test program that will spawns the servers and client to test the following scenarios.
 
-- Deploys 5 servers. A server can become offline anytime. If a server is offline, the server will have outdated values when a client makes an add/update request to other servers. Simulate
+- Deploys 5 servers. A server can become offline anytime. If a server is offline, the server will have outdated values when a client makes an add/update request to other servers. Test cases are simulated where
   the scenario when (a) there is no conflict and (b) there is conflict.
-- When there is no conflict, the sever value should merge the key values and local clock based on the clock values (local versus remote). This can be done by the client sending an update request twice --- when the server is down, and the failed server is back up.
-- When there is a conflict, the server should store conflicted values and return these to the client.
+- When there is no conflict, the sever value merges the key values and local clock based on the clock values (local versus remote)
+- When there is a conflict, the server stores conflicted values and return these to the client.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
